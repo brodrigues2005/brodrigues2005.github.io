@@ -22,8 +22,29 @@
   margin: 0px 8px 0px -10px;             
   border-radius: 4px;        
   text-align: center;  
+  
+
 
   }
+
+  .navBar .button p  {
+  
+
+
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  
+  
+  }
+
+  .button p:hover {
+    background-color: #2980b9; /* Darken color on hover */
+  }
+
+    a{
+        text-decoration: none;
+    }
 
   .favi{
     position: absolute;
