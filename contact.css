@@ -78,3 +78,18 @@
   body{
     background-color: #6B64A9 ;
   }
+
+  .contact-title{
+    text-align: center;
+    margin: auto;
+    color: white;
+    margin-top: 15vh;
+  }
+
+  .contact-title h1{
+    font-size: 80px;
+  }
+
+  .contact-title h2{
+    margin-top: -5vh;
+  }
