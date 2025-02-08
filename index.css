@@ -55,7 +55,7 @@
     position: absolute;
     bottom: 1vh;
     display: flex;       
-    flex-direction: row;
+    /* flex-direction: row; */
     
 
   }
@@ -72,4 +72,8 @@
   footer p{
     font-size: 10px;
     color: white;
+  }
+
+  body{
+    background-color: #6B64A9 ;
   }
