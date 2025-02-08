@@ -53,7 +53,7 @@
 
   footer{
     position: absolute;
-    bottom: -50vh;
+    bottom: -60vh;
     display: flex;       
     
     
@@ -83,8 +83,19 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 100vw; /* Full height of the viewport */
-}
+    width: 100vw;
+  }
+
+  .text-container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    text-align: center; 
+    margin-top: -10vh;
+    color: white;
+  }
 
 
   .home-pic{
