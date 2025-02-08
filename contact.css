@@ -54,7 +54,7 @@
 
   footer{
     position: absolute;
-    bottom: 1vh;
+    bottom: -30vh;
     display: flex;       
     /* flex-direction: row; */
     
@@ -92,4 +92,14 @@
 
   .contact-title h2{
     margin-top: -5vh;
+  }
+
+  .contact-images{
+    display:flex;
+    height: 50vh;
+    justify-content: center;
+  }
+
+  .contact-images img{
+    margin-top: 50px;
   }
