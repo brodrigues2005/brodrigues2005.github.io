@@ -106,9 +106,39 @@
     
   }
 
-  .hobbies li img{
-    height:40px;
+  li{
+
+    display: flex;
+    align-items: center;
+   
+   
+  }
+
+
+  .hobbies ul{
+    list-style: none;
+    display: flex;
+    width: 90%;
+    gap: 70px;
+   
     
+  }
+  .hobbies li img{
+    height:35px;
+   
+    
+   
+  }
+
+  .hobbies li{
+    transition: color 0.3s ease-in-out;
+   
+    
+   
+  }
+
+  .hobbies li:hover{
+    color: #6B64A9;
   }
 
   
