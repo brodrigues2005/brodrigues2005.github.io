@@ -53,9 +53,9 @@
 
   footer{
     position: absolute;
-    bottom: 1vh;
+    bottom: -50vh;
     display: flex;       
-    /* flex-direction: row; */
+    
     
 
   }
@@ -76,4 +76,21 @@
 
   body{
     background-color: #6B64A9 ;
+  }
+
+  .image-container {
+    margin-top: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100vw; /* Full height of the viewport */
+}
+
+
+  .home-pic{
+    position: absolute;
+    height: 50vh;
+    border-radius: 150px;
+    margin:auto;
+
   }
