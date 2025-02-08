@@ -77,3 +77,19 @@
   body{
     background-color: #6B64A9 ;
   }
+
+  .projects{
+    border: solid;
+    margin: auto;
+    background-color: #D9D9D9;
+    text-align: center;
+    margin-top: 5vh;
+    width: 60vw;
+    height: 60vh ;
+
+  }
+
+  .project-panel{
+    position: absolute;
+    border: solid;
+  }
