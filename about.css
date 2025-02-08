@@ -54,7 +54,7 @@
 
   footer{
     position: absolute;
-    bottom: -85vh;
+    bottom: -70vh;
     display: flex;       
     
     
@@ -102,6 +102,7 @@
     width: 50vw;
     margin-top: 40px;
     border: solid;
+    height: 15vw;
     
     
   }
@@ -118,8 +119,9 @@
   .hobbies ul{
     list-style: none;
     display: flex;
-    width: 90%;
-    gap: 70px;
+    width: 75%;
+    gap: 100px;
+   
    
     
   }
