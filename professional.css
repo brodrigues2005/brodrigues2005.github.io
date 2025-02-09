@@ -53,7 +53,7 @@
 
   footer{
     position: absolute;
-    bottom: -80vh;
+    bottom: -120vh;
     display: flex;       
 
     
@@ -144,3 +144,14 @@
   .course-panel button:hover{
     opacity: 0.6;
   }
+
+  .skills{
+    border: solid;
+    margin: auto;
+    background-color: #D9D9D9;
+    text-align: center;
+    margin-top: 5vh;
+    width: 70vw;
+    height: 40vh ;
+}
+
