@@ -53,9 +53,9 @@
 
   footer{
     position: absolute;
-    bottom: 1vh;
+    bottom: -80vh;
     display: flex;       
-    /* flex-direction: row; */
+
     
 
   }
@@ -118,7 +118,7 @@
       background-color: #D9D9D9;
       text-align: center;
       margin-top: 5vh;
-      width: 60vw;
+      width: 70vw;
       height: 60vh ;
   }
 
@@ -128,7 +128,7 @@
 
   .course-panel img{
     height: 200px;
-    border-radius: 100px;
+    border-radius: 150px;
   }
 
   .course-panel button{
