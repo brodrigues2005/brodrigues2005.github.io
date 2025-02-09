@@ -111,3 +111,17 @@
   .project-panel button:hover{
     opacity: 0.6;
   }
+
+  .courses{
+      border: solid;
+      margin: auto;
+      background-color: #D9D9D9;
+      text-align: center;
+      margin-top: 5vh;
+      width: 60vw;
+      height: 60vh ;
+  }
+
+  .course-panel{
+    position: absolute;
+  }
