@@ -93,3 +93,7 @@
     position: absolute;
     border: solid;
   }
+
+  .project-panel img{
+    height: 200px;
+  }
