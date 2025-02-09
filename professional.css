@@ -53,9 +53,9 @@
 
   footer{
     position: absolute;
-    bottom: 1vh;
+    bottom: -80vh;
     display: flex;       
-    /* flex-direction: row; */
+
     
 
   }
@@ -109,5 +109,38 @@
   }
 
   .project-panel button:hover{
+    opacity: 0.6;
+  }
+
+  .courses{
+      border: solid;
+      margin: auto;
+      background-color: #D9D9D9;
+      text-align: center;
+      margin-top: 5vh;
+      width: 70vw;
+      height: 60vh ;
+  }
+
+  .course-panel{
+    position: absolute;
+  }
+
+  .course-panel img{
+    height: 200px;
+    border-radius: 150px;
+  }
+
+  .course-panel button{
+    margin-top: 1vh;
+    background-color: #6B64A9 ;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+  }
+
+  .course-panel button:hover{
     opacity: 0.6;
   }
