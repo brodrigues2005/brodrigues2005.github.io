@@ -157,8 +157,17 @@
 
 .skills-images{
   display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .skills-images img{
-  display:flex;
+  height: 125px;
+  transition: transform 0.3s ease-out;
+
+}
+
+.skills-images img:hover{
+  transform: scale(1.1);
 }
