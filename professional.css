@@ -91,9 +91,23 @@
 
   .project-panel{
     position: absolute;
-    border: solid;
+   
   }
 
   .project-panel img{
     height: 200px;
+  }
+
+  .project-panel button{
+    margin-top: 1vh;
+    background-color: #6B64A9 ;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+  }
+
+  .project-panel button:hover{
+    opacity: 0.6;
   }
