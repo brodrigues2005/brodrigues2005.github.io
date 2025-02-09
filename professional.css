@@ -155,3 +155,10 @@
     height: 40vh ;
 }
 
+.skills-images{
+  display: flex;
+}
+
+.skills-images img{
+  display:flex;
+}
