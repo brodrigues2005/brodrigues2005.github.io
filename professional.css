@@ -171,3 +171,54 @@
 .skills-images img:hover{
   transform: scale(1.1);
 }
+
+
+.interests{
+  background-color: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 60vw;
+  margin-top: 40px;
+  border: solid;
+  height: 15vw;
+  
+  
+}
+
+li{
+
+  display: flex;
+  align-items: center;
+ 
+ 
+}
+
+
+.interests ul{
+  list-style: none;
+  display: flex;
+  width: 75%;
+  gap: 100px;
+ 
+ 
+  
+}
+.interests li img{
+  height:35px;
+ 
+  
+ 
+}
+
+.interests li{
+  transition: color 0.3s ease-in-out;
+ 
+  
+ 
+}
+
+.interests li:hover{
+  color: #6B64A9;
+}
